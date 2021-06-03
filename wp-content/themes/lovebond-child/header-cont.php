@@ -110,8 +110,8 @@
 
 					<div class="contents_main_left">
 						
-						<a href="http://localhost:8888/meiwa/" class="logo-img"><img id="lovebond-logo-img" src="http://localhost:8888/meiwa-engineering/wp-content/uploads/2021/05/meiwa-1.png" ></a>
-					
+						<a href="#" class="logo-img"><img id="lovebond-logo-img" src="<?php echo esc_url( get_theme_mod('lovebond_lite_logo_img') ); ?>" alt"<?php bloginfo('name'); ?>"></a>
+							
 						<div class="main_copy">
 						
 								<p><?php the_title(); ?></p>
