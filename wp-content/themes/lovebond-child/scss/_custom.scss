@@ -5,6 +5,21 @@
 }
 
 
+/* responsive */
+
+.on {
+    @include breakpoint(mobile) {
+        display: block !important;
+    }
+}
+
+.off {
+    @include breakpoint(mobile) {
+        display: none !important;
+    }
+}
+
+
 /* basecolor
 ------------------------------------------------------------ */
 
@@ -26,6 +41,13 @@ $green_color: #f9ba0b;
     margin: 30px 0px;
     @include breakpoint(mobile) {
         font-size: 20px;
+    }
+}
+
+@media (min-width:310px) and (max-width:499px) {
+    ul.max-menu {
+        max-height: auto !important;
+        margin: 100px auto auto 20px;
     }
 }
 
@@ -153,7 +175,7 @@ $green_color: #f9ba0b;
 
 .main_copy p {
     @include breakpoint(mobile) {
-        background: #fff !important;
+        // background: #fff !important;
     }
 }
 
@@ -481,6 +503,12 @@ ul.max-menu {
     }
 }
 
+#home .contents_main {
+    @include breakpoint(mobile) {
+        height: auto;
+    }
+}
+
 // CONTENTS HEADER
 ////////////////////////////////////////////////////
 #cotnents-page {
@@ -526,7 +554,7 @@ ul.max-menu {
             top: 230px !important;
             @include breakpoint(mobile) {
                 left: 10px;
-                top: 230px;
+                top: 80px !important;
                 display: block;
             }
             p {
@@ -851,7 +879,7 @@ ul.max-menu {
                 border-radius: 50%;
                 position: absolute;
                 top: 20px;
-                left: 119px;
+                left: 120px;
                 margin: 0;
             }
         }
@@ -958,12 +986,335 @@ ul.max-menu {
         ul {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
+            // justify-content: center;
+            // align-items: center;
             list-style: none;
             li {
-                width: calc(50% - 20px);
-                margin: 0 20px 20px 0;
+                width: calc(25% - 10px);
+                margin: 0 10px 10px 0;
+                @include breakpoint(mobile) {
+                    width: calc(50% - 10px);
+                    margin: 0 10px 10px 0;
+                }
+            }
+        }
+    }
+    .block-3 {
+        .dltable_owned {
+            width: 90%;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            margin: 15px auto;
+            background-color: #fff;
+            .row1 {
+                width: 40%;
+                border-right: 1px solid #ccc;
+            }
+            .row2 {
+                width: 40%;
+            }
+            .row3 {
+                width: 20%;
+                border-left: 1px solid #ccc;
+                text-align: center;
+            }
+            dl.bk_dl {
+                background: #eee;
+                ;
+            }
+            dl {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: left;
+                text-align: center;
+                border-bottom: 1px solid #ccc;
+                margin: 0;
+                &:last-child {
+                    border-bottom: none;
+                    margin: 0;
+                    padding: 0;
+                }
+                @include breakpoint(mobile) {
+                    text-align: left;
+                    font-size: 10px;
+                }
+                dt {
+                    padding: 10px 0;
+                    color: #333;
+                    margin: 0;
+                    font-size: 15px;
+                    @include breakpoint(mobile) {
+                        padding: 10px 10px;
+                        margin: 0;
+                    }
+                }
+                dd {
+                    padding: 10px 0;
+                    margin: 0;
+                    font-size: 12px;
+                    @include breakpoint(mobile) {
+                        padding: 10px 10px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+    .block-4 {
+        .dltable_delivery {
+            width: 90%;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            margin: 15px auto;
+            background-color: #fff;
+            .row1 {
+                width: 50%;
+                border-right: 1px solid #ccc;
+            }
+            .row2 {
+                width: 50%;
+            }
+            dl.bk_dl {
+                background: #eee;
+                ;
+            }
+            dl {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: left;
+                text-align: center;
+                border-bottom: 1px solid #ccc;
+                margin: 0;
+                &:last-child {
+                    border-bottom: none;
+                    margin: 0;
+                    padding: 0;
+                }
+                @include breakpoint(mobile) {
+                    text-align: left;
+                    font-size: 10px;
+                }
+                dt {
+                    padding: 10px 0;
+                    color: #333;
+                    margin: 0;
+                    font-size: 15px;
+                    @include breakpoint(mobile) {
+                        padding: 10px 10px;
+                        margin: 0;
+                    }
+                }
+                dd {
+                    padding: 10px 0;
+                    margin: 0;
+                    font-size: 12px;
+                    @include breakpoint(mobile) {
+                        padding: 10px 10px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// お問い合わせ　contact
+////////////////////////////////////////////////////
+.contact {
+    .block-1 {
+        table {
+            th {
+                border-top: 1px solid $green_color;
+                border-bottom: 1px solid $green_color;
+                border-left: none;
+                background: none;
+                color: $green_color;
+            }
+            td {
+                border-top: 1px solid #ccc;
+                border-bottom: 1px solid #ccc;
+                border-right: none;
+            }
+        }
+        .contact-btn {
+            text-align: center;
+        }
+        .wpcf7-submitz {
+            margin-top: 20px;
+        }
+        .wpcf7-submit {
+            padding: 10px 0 10px;
+            border-radius: 10px;
+            background: #f9ba0b;
+            width: 300px;
+            display: inline-block;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+    .block-2 {
+        margin: 50px 0px;
+        .block-2_inner {
+            .faq-question {
+                // padding: 10px 10px 10px 40px;
+                // background: #FFF url(../images/faq-bg.png) no-repeat left center;
+                border: 1px solid #333;
+                // cursor: pointer;
+                font-size: 14px;
+                color: #333;
+                //  font-weight: bold;
+            }
+            .faq-question {
+                border: 1px solid #333;
+                font-size: 14px;
+                color: #333;
+            }
+        }
+    }
+}
+
+// 求人情報　recruitpage
+////////////////////////////////////////////////////
+.recruitpage {
+    .block-1 {
+        .block-1_inner {
+            overflow: hidden;
+        }
+    }
+    .block-2 {
+        margin: 50px 0px;
+        .centents-table {
+            width: 800px;
+            margin: 0 auto;
+            @include breakpoint(mobile) {
+                width: 100%;
+            }
+            table tr {
+                @include breakpoint(mobile) {
+                    margin-bottom: 20px;
+                    display: block;
+                }
+            }
+            table th {
+                padding: 20px 20px;
+                width: 30%;
+                background: #eee;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid #fff;
+                @include breakpoint(mobile) {
+                    width: 100%;
+                    display: block;
+                }
+            }
+            table td {
+                padding: 20px 20px;
+                width: 70%;
+                border-bottom: 1px solid #ddd;
+                border-top: none;
+                border-right: none;
+                border-left: none;
+                text-align: left;
+                @include breakpoint(mobile) {
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+    }
+    .block-3 {
+        .block-3_inner {
+            overflow: hidden;
+            margin: 0px 0px;
+            border-top: 1px solid;
+            padding: 50px 0px;
+            .left-txt {
+                h4 {
+                    font-weight: bold;
+                }
+                p {
+                    font-weight: normal;
+                }
+                img {
+                    display: none;
+                }
+            }
+            .right-txt {
+                h4 {
+                    font-weight: bold;
+                }
+                p {
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+    .block-4 {
+        margin: 0px 0px;
+        .centents-table {
+            width: 800px;
+            margin: 0 auto;
+            @include breakpoint(mobile) {
+                width: 100%;
+            }
+            table tr {
+                @include breakpoint(mobile) {
+                    margin-bottom: 20px;
+                    display: block;
+                }
+            }
+            table th {
+                padding: 20px 20px;
+                width: 30%;
+                background: #eee;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid #fff;
+                @include breakpoint(mobile) {
+                    width: 100%;
+                    display: block;
+                }
+            }
+            table td {
+                padding: 20px 20px;
+                width: 70%;
+                border-bottom: 1px solid #ddd;
+                border-top: none;
+                border-right: none;
+                border-left: none;
+                text-align: left;
+                @include breakpoint(mobile) {
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+    }
+    .recruitpage_contact {
+        text-align: center;
+        margin: 30px 0px;
+        p {
+            font-size: 26px;
+            font-weight: bold;
+            @include breakpoint(mobile) {
+                font-size: 18px;
+            }
+        }
+        a {
+            padding: 10px 0 10px;
+            border-radius: 30px;
+            background: $green_color;
+            width: 300px;
+            display: inline-block;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            @include breakpoint(mobile) {
+                width: 100%;
             }
         }
     }

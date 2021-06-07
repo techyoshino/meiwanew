@@ -84,6 +84,9 @@
 					</div>
 					<a href="https://higashinetd.jp/" class="main_logo sp_disp link"></a>
 
+					<?php
+					/*
+
 					<div class="main_loader">
 
 						<div class="main_loader_line">
@@ -106,6 +109,9 @@
 							</a>
 						</div>
 					</div>
+
+					*/
+					?>
 				</div>
 
 
