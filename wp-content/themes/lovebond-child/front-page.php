@@ -31,7 +31,7 @@ get_header(); ?>
 
 			<div class="content-wrap col-md-6 left-photo">
 			
-			<img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" />
+			<img src="<?php echo get_template_directory_uri(); ?>/images/Q-06.jpg" />
 				<div class="clearfix"></div>
 			</div>
 		
@@ -42,13 +42,12 @@ get_header(); ?>
 				<div class="right-txt">
 				
 				<div class="right-txt-cap">
-					<h3>「機械は理屈」</h3>
+					<h3>機械は"理屈"で動く</h3>
 				</div>
 
 				<div class="right-txt-in">
 					<p>
-					こんな思いで会社を始めました<br />
-					私たちはこんな会社です。
+					あいまいな指示でもそれなりに動く人間とは違い、機械はプログラムしたとおりにしか動きません。私たちは機械をオーダーメイドで仕上げます。だからこそ、きちんと「理屈」どおりに組み上げられているかが重要。でも、それを作る人間のほうは、とても"人間味"のある人たちです。
 					</p>
 				</div>	
 
@@ -67,9 +66,8 @@ get_header(); ?>
 	<section class="block-2 contents_block scroll_element scroll_off0">
 
 		<div class="cap">
-		企画・提案・開発・納品......<br />
-		一気通貫で何でも請け負います。
-		
+		企画提案から開発・納品・保守まで<br />
+		お仕事を「一気通貫」で請け負います		
 		</div>	
 		
 		<div class="center-photo">
@@ -77,7 +75,7 @@ get_header(); ?>
 			<div class="container">
 				
 				<div class="center-photo-in">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/6.jpg" />
+					<img src="<?php echo get_template_directory_uri(); ?>/images/Q-09.jpg" />
 				</div>
 
 			</div>
@@ -93,7 +91,7 @@ get_header(); ?>
 		<div class="container">
 
 			<div class="cap">
-			明和エンジニアリングのサービス一例
+			明和エンジニアリングのサービス
 			</div>	
 
 			<div class="service-list">
@@ -226,19 +224,21 @@ get_header(); ?>
 				<div class="left-txt">
 					
 					<div class="left-txt-cap">
-						<h3>セットアップの全工程<br />
-						お見せします。</h3>
+						<h3>専用機械のセットアップ、<br />
+						その全行程をお見せします</h3>
 					</div>
 
 					<div class="left-txt-in">
 						<p>
-						セットアップの全工程<br />
-						お見せします。
+						「こんな加工ができる機械がほしいんだけど」<br />
+						そんなお問い合わせから仕事は始まります。<br />
+						企画から納品・保守サービスまで行う私たちの、<br />
+						作業工程の一例をご紹介します。
 						</p>
 					</div>	
 
 					<div class="left-txt-btn">
-						<a href="#" class="">工程見本</a>
+						<a href="#" class="">作業工程のご紹介</a>
 					</div>	
 
 				</div>	
@@ -250,7 +250,7 @@ get_header(); ?>
 			
 			<div class="col-md-6 right-photo">
 
-				<img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" />
+				<img src="<?php echo get_template_directory_uri(); ?>/images/Q-01.jpg" />
 				<div class="clearfix"></div>
 
 				
@@ -275,7 +275,7 @@ get_header(); ?>
 
 			<div class="content-wrap col-md-6 left-photo">
 			
-			<img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" />
+			<img src="<?php echo get_template_directory_uri(); ?>/images/Q-07.jpg" />
 				<div class="clearfix"></div>
 			</div>
 		
@@ -286,18 +286,21 @@ get_header(); ?>
 				<div class="right-txt">
 				
 				<div class="right-txt-cap">
-					<h3>「機械は理屈」</h3>
+					<h3>開発・納品した機械は○○台以上<br />
+					オリジナルを生み出す社員の力</h3>
 				</div>
 
 				<div class="right-txt-in">
 					<p>
-					こんな思いで会社を始めました<br />
-					私たちはこんな会社です。
+					まだ世に無いものを作るーー<br />
+					それが明和エンジニアリングの仕事です。<br />
+					試されるのは社員の「想像力」と「創造力」<br />
+					これまでに生み出した機械をご覧ください。
 					</p>
 				</div>	
 
 				<div class="right-txt-btn">
-					<a href="#" class="">私たちについて</a>
+					<a href="#" class="">開発事例はこちら</a>
 				</div>	
 
 				</div>	
