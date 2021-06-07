@@ -157,26 +157,118 @@ get_header(cont); ?>
 			<div class="cap">お取引一覧</div>
 			
 			<ul>
-				<li>朝日電装株式会社</li>
-				<li>株式会社アンセイ</li>
-				<li>株式会社今仙電機製作所</li>
-				<li>カーツ株式会社</li>
-				<li>株式会社三星電機製作所</li>
-				<li>清水建設株式会社</li>
-				<li>住友電装株式会社</li>
-				<li>住友理工株式会社</li>
-				<li>タイム技研株式会社</li>
-				<li>大洋産業株式会社</li>
-				<li>大和冷機工業株式会社</li>
-				<li>タカラスタンダード株式会社</li>
-				<li>玉野化成株式会社</li>
-				<li>DNP田村プラスチック株式会社</li>
+				<li>いすゞ自動車株式会社</li>        
+				<li>ホンダエンジニアリング株式会社</li>
+				<li>株式会社 オートテック</li>      
+				<li>ボッシュ株式会社</li>
+				<li>株式会社 クボタ</li>        
+				<li>株式会社 三和部品</li>
+				<li>三菱ふそうトラックバス株式会社</li>        
+				<li>三洋電機株式会社</li>
+				<li>株式会社 旭商工社</li>       
+				<li>株式会社 ショーワ</li>
+				<li>岡谷鋼機株式会社</li>        
+				<li>株式会社 ジャトコ</li>
+				<li>株式会社 京二</li>        
+				<li>東洋製罐株式会社</li>
+				<li>コマツエンジニアリング株式会社</li>        
+				<li>日産自動車株式会社</li>
+				<li>常盤産業株式会社</li>        
+				<li>高周波熱錬株式会社</li>
+				<li>株式会社 東芝</li>        
+				<li>株式会社 日立製作所</li>
+				<li>マルカキカイ株式会社</li>        
+				<li>日野自動車工業株式会社</li>
+				<li>松下電工株式会社</li>        
+				<li>株式会社 不二越</li>
+				<li>富士重工株式会社</li>        
+				<li>株式会社 TKエンジニアリング</li>
+				<li>三井精機工業株式会社</li>        
+				<li>日産工機株式会社</li>
+				<li>住友重機械株式会社</li> 
 					
 			</ul>	
 
 		</section>
 
 		<!-- BEGIN:block-2  -->
+
+		<!-- BEGIN:block-3  -->
+
+		<section class="block-3 contents_block">
+
+			<div class="cap">保有機械一覧</div>
+			
+			<div class="dltable_owned">
+				<dl class="bk_dl">            
+					<dt class="row1">メーカー</dt>
+					<dt class="row2">種類</dt>
+					<dt class="row3">台数</dt>
+				</dl>
+
+				<dl>            
+					<dd class="row1">三井精機工業製</dd>
+					<dd class="row2">治具ボーラー7B</dd>
+					<dd class="row3">1台</dd>
+				</dl>
+
+				<dl>            
+					<dd class="row1">三井精機工業製</dd>
+					<dd class="row2">治具ボーラー6B</dd>
+					<dd class="row3">1台</dd>
+				</dl>
+				
+
+				<dl>            
+					<dd class="row1">三井精機工業製：VR－3A </dd>
+					<dd class="row2">マシニングセンター  </dd>
+					<dd class="row3">1台</dd>
+				</dl>
+
+				<dl>            
+					<dd class="row1">三井精機工業製：VU－654A</dd>
+					<dd class="row2">マシニングセンター</dd>
+					<dd class="row3">1台</dd>
+				</dl>
+
+			</div>
+
+
+		</section>
+
+		<!-- BEGIN:block-3  -->
+
+		<!-- BEGIN:block-4  -->
+
+		<section class="block-4 contents_block">
+
+			<div class="cap">納入実績</div>
+			
+			<div class="dltable_delivery">
+				<dl class="bk_dl">            
+					<dt class="row1">納入先</dt>
+					<dt class="row2">種類</dt>
+					
+				</dl>
+
+				<dl>            
+					<dd class="row1">日産自動車(株)</dd>
+					<dd class="row2">混流コンベアー</dd>
+				</dl>	
+
+				<dl> 
+					<dd class="row1">井関農機(株)</dd>
+					<dd class="row2">パレット</dd>
+				</dl>	
+
+
+
+			</div>
+
+
+		</section>
+
+		<!-- BEGIN:block-4  -->
 
 	</div>
 </section>

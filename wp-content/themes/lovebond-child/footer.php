@@ -199,7 +199,7 @@ $lovebond_lite_whatsapp_url	= get_theme_mod('lovebond_lite_whatsapp_link', '#');
 	</div>
 	<!-- END: SCROLL -->
 
-    <div class="tild-section"></div>
+    <!-- <div class="tild-section"></div> -->
 </div>
 <?php wp_footer(); ?>
 
