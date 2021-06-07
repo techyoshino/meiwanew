@@ -1,8 +1,12 @@
 .test22 {
     @include breakpoint(mobile) {
         height: auto;
+        width: 100px;
     }
 }
+
+
+
 
 
 /* basecolor
