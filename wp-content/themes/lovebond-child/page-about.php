@@ -40,36 +40,40 @@ get_header(cont); ?>
 						<div class="left-txt">
 							
 							<div class="left-txt-cap">
-								
-								<h4>「電気のことで地域の人を困らせない。
-								それが、私たちの恩返し。」</h4>
+
+							<h4>「電気のことで地域の人を困らせない。
+							それが、私たちの恩返し。」<br />
+							機械は"理屈"で動く</h4>
 							</div>
 
 							<div class="left-txt-in">
 								<p>
 								東根東北電化という社名の通り、当社は東根に根ざした電気屋として皆さまに支えられてきました。私が常に思うのは「この地域には、この職業が必要なんだ」ということ。地域から、いわゆる“まちの電気屋”が減っているなかで、ずっと支えていただいたことへの恩返しの意味も込めて、電気設備のことでお困りのときには迅速かつマジメな対応でお役に立てればと思っております。
+								弊社は１９９１年（平成３年）１月に、工作機械・専用機械などのメンテナンスサービスを主たる業務目的として創立いたしました。創業以来、元気で明るい企業としてお客様にご愛顧を賜り、今日にいたっております。現在ではエンジニアリング業務をメインに、Q, C, S, D（高品質、低コスト、スピード、納期）をモットーに、最新鋭の設備とともに研究を重ね、たゆまぬ努力でものづくりの創造に挑戦しています。今後ともより一層のご指導・ご鞭撻をいただきますよう、よろしくお願い申し上げます。
 								</p>
 							</div>	
 
 							<div class="left-txt-bottom">
 								<span>代表取締役</span>
 								<p>工藤 敏幸</p>
+								<p>小林 謹治</p>
 							</div>	
 
-						</div>	
+
+							</div>	
 
 					</div>
 
 					<div class="col-md-6 right-photo">
 
-						<img src="<?php echo get_template_directory_uri(); ?>/images/about-1.jpg" />
+					<img src="<?php echo get_template_directory_uri(); ?>/images/Q-08.jpg" />
 						<div class="clearfix"></div>
 					</div>
 				
 				</div>
 
 				<div class="block-1_inner_img_w_all scroll_element scroll_off0">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/about-2.jpg" />
+				<img src="<?php echo get_template_directory_uri(); ?>/images/Q-11.jpg" />
 				</div>
 			</div>
 			
