@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying pages
- *
+ * Template Name: 開発事例テンプレート
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages and that
  * other "pages" on your WordPress site will use a different template.
@@ -156,7 +156,7 @@ get_header(cont); ?>
 
 			<div class="cap">お取引一覧</div>
 			
-			<ul>
+			<!-- <ul>
 				<li>いすゞ自動車株式会社</li>        
 				<li>ホンダエンジニアリング株式会社</li>
 				<li>株式会社 オートテック</li>      
@@ -187,6 +187,16 @@ get_header(cont); ?>
 				<li>日産工機株式会社</li>
 				<li>住友重機械株式会社</li> 
 					
+			</ul> -->
+			
+			<ul>
+			<?php
+				$fields = $cfs->get('transaction_loop');
+				foreach ($fields as $field) :
+				?>
+				<li><?php echo $field['transaction_list']; ?></li>
+			<?php endforeach; ?>
+							
 			</ul>	
 
 		</section>
@@ -203,10 +213,10 @@ get_header(cont); ?>
 				<dl class="bk_dl">            
 					<dt class="row1">メーカー</dt>
 					<dt class="row2">種類</dt>
-					<dt class="row3">台数</dt>
+					
 				</dl>
 
-				<dl>            
+				<!-- <dl>            
 					<dd class="row1">三井精機工業製</dd>
 					<dd class="row2">治具ボーラー7B</dd>
 					<dd class="row3">1台</dd>
@@ -229,7 +239,24 @@ get_header(cont); ?>
 					<dd class="row1">三井精機工業製：VU－654A</dd>
 					<dd class="row2">マシニングセンター</dd>
 					<dd class="row3">1台</dd>
+				</dl> -->
+
+				           
+				<?php
+				$fields = $cfs->get('machine-add');
+				foreach ($fields as $field) :
+				?>
+				<dl> 
+			
+					<dd class="row1"><?php echo $field['machine-maker']; ?></dd>
+					<dd class="row2"><?php echo $field['machine-type']; ?></dd>
+					
+
 				</dl>
+				<?php endforeach; ?>
+				
+
+
 
 			</div>
 
@@ -251,7 +278,18 @@ get_header(cont); ?>
 					
 				</dl>
 
-				<dl>            
+				<?php
+				$fields = $cfs->get('delivery-add');
+				foreach ($fields as $field) :
+				?>
+				<dl> 
+					<dd class="row1"><?php echo $field['delivery-destination']; ?></dd>
+					<dd class="row2"><?php echo $field['delivery-type']; ?></dd>
+					
+				</dl>
+				<?php endforeach; ?>
+
+				<!-- <dl>            
 					<dd class="row1">日産自動車(株)</dd>
 					<dd class="row2">混流コンベアー</dd>
 				</dl>	
@@ -259,7 +297,7 @@ get_header(cont); ?>
 				<dl> 
 					<dd class="row1">井関農機(株)</dd>
 					<dd class="row2">パレット</dd>
-				</dl>	
+				</dl>	 -->
 
 
 

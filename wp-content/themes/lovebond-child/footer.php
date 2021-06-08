@@ -87,11 +87,15 @@ $lovebond_lite_whatsapp_url	= get_theme_mod('lovebond_lite_whatsapp_link', '#');
 
                     <div class="row">
 
-                        <a href="https://www.yahoo.co.jp/">
+                    <?php if(is_page( '29' )): ?>
+                    特定の固定ページに表示させたい内容
+                    <?php else: ?>
+
+                    <a href="<?php echo esc_url( home_url( '/recruitpage' ) ); ?>">
 
                             <div class="col-md-6 recruit-inner-left">
                             
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" />
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/Q-17.jpg" />
                                 <div class="clearfix"></div>
                             </div>
                         
@@ -103,16 +107,17 @@ $lovebond_lite_whatsapp_url	= get_theme_mod('lovebond_lite_whatsapp_link', '#');
                                 <p class="recruit-title">RECRUIT</p>
                             
                                 <div class="recruit-inner-right-txt">
-                                    <p class="b">正社員募集中</p>
+                                    <p class="b">私たちと一緒に働きませんか？</p>
                                     <p>
-                                    東根東北電化では、一緒に働く仲間を募集しています。<br />
-                                    興味がある方は、お気軽にご連絡ください。
+                                    まだ世に無いモノを作り出す喜び<br />
+                                    明和エンジニアリングで味わえます
                                     </p>
                                 </div>	
 
                                 
                             </div>
-                        </a>    
+                        </a> 
+                        <?php endif; ?>     
                     </div>
                         
 
@@ -143,7 +148,7 @@ $lovebond_lite_whatsapp_url	= get_theme_mod('lovebond_lite_whatsapp_link', '#');
                         <div class="col-md-6 footer-contact-inner-right">
 
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
-<a href="#">お問い合わせ</a>
+                        <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">お問い合わせ</a>
                             
                             <p>インターネットで24時間受付</p> 
                             
@@ -165,16 +170,13 @@ $lovebond_lite_whatsapp_url	= get_theme_mod('lovebond_lite_whatsapp_link', '#');
                     <div class="footer-about-in-cap-img">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/meiwa-footer-logo.svg" />
                     </div> <!-- //footer-about-in-cap-img -->
-                    
-                    <ul>
-                        <li><a href="">TOP</a></li>
-                        <li><a href="">会社概要</a></li>
-                        <li><a href="">作業工程のご紹介</a></li>
-                        <li><a href="">組み立て事例</a></li>
+                        
 
-                    </ul>
+                </div>
 
-                </div>    
+                <ul id="menu" class="max-menu">
+                    <?php wp_list_pages('title_li'); ?>
+                </ul>    
             
             </sction>
 

@@ -110,7 +110,7 @@
 
 					<div class="contents_main_left">
 						
-						<a href="#" class="logo-img"><img id="lovebond-logo-img" src="<?php echo esc_url( get_theme_mod('lovebond_lite_logo_img') ); ?>" alt"<?php bloginfo('name'); ?>"></a>
+						<a href="/" class="logo-img"><img id="lovebond-logo-img" src="<?php echo esc_url( get_theme_mod('lovebond_lite_logo_img') ); ?>" alt"<?php bloginfo('name'); ?>"></a>
 							
 						<div class="main_copy">
 						
