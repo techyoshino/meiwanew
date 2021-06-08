@@ -100,6 +100,7 @@ a {
   text-decoration: underline;
   -webkit-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out;
+  cursor: pointer;
 }
 
 cite a,
@@ -602,8 +603,12 @@ textarea::placeholder {
   right: 22%;
 }
 
+.sub_img:before {
+  background: #2f3042 !important;
+}
+
 .main_menu_block {
-  width: 20%;
+  width: 30%;
   height: 100%;
   position: fixed;
   z-index: 999;
@@ -660,7 +665,7 @@ textarea::placeholder {
 }
 
 .sub_menu a {
-  color: #ffffff;
+  color: #fff !important;
   font-size: 24px;
   font-weight: 700;
   font-family: 'Open Sans';
@@ -819,6 +824,7 @@ ul.max-menu {
   width: 72px;
   height: 22px;
   opacity: 0.3;
+  display: none;
 }
 
 .menu_wrapper .sub_menu ul#menu > li:last-child .menu-style {
@@ -852,12 +858,18 @@ ul.max-menu {
   font-weight: normal;
   border-bottom: solid 1px rgba(255, 255, 255, 0.36);
   line-height: 1.42857143;
-  color: #fff;
   white-space: nowrap;
 }
 
 .main_menu_block ul.sub-menu > li:last-child > a {
   border-bottom: none;
+}
+
+.first-year {
+  font-weight: bold;
+  font-size: 20px;
+  color: #aaa;
+  padding-left: 5px;
 }
 
 .main_menu_btn {
@@ -1434,18 +1446,12 @@ ul.max-menu {
 }
 
 .construction .block-3 .dltable_owned .row1 {
-  width: 40%;
+  width: 50%;
   border-right: 1px solid #ccc;
 }
 
 .construction .block-3 .dltable_owned .row2 {
-  width: 40%;
-}
-
-.construction .block-3 .dltable_owned .row3 {
-  width: 20%;
-  border-left: 1px solid #ccc;
-  text-align: center;
+  width: 50%;
 }
 
 .construction .block-3 .dltable_owned dl.bk_dl {
@@ -1957,6 +1963,32 @@ ul.max-menu {
 }
 
 .footer-about .footer-about-in ul li a {
+  color: #333;
+}
+
+.footer-about ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 990px) {
+  .footer-about ul {
+    display: none;
+  }
+}
+
+.footer-about ul li {
+  padding: 0 10px;
+}
+
+.footer-about ul li a {
   color: #333;
 }
 
@@ -4305,7 +4337,7 @@ img {
 
 .loading_logo div > span:nth-child(2) {
   width: 0;
-  background: #009f41;
+  background: #f9ba0b;
 }
 
 .wrap_off .default .loading_logo div > span:nth-child(1) {

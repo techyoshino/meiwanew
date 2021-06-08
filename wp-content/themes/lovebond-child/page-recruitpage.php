@@ -1,6 +1,10 @@
 <?php
+
+
 /**
  * The template for displaying pages
+ * 
+ * 
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages and that
@@ -189,7 +193,10 @@ get_header(cont); ?>
 
 			<div class="centents-table scroll_element scroll_off0">
 
-				<table>
+
+			<?php the_content(); ?>
+
+				<!-- <table>
 					<tr>
 						<th>勤務時間</th>
 
@@ -229,7 +236,7 @@ get_header(cont); ?>
 						
 					</tr>
 					
-				</table>
+				</table> -->
 
 				<div class="recruitpage_contact">
 					<p>

@@ -14,7 +14,9 @@
 	<div class="loading_inner">
 		<div class="loading_logo">
 			<div><span class="opa"></span><span></span></div>
-			<img src="img/mg3.svg" alt="SINCE 1900｜昭和00年創業">
+			<!-- <img src="images/loading.svg" alt="SINCE 1900｜昭和00年創業"> -->
+	
+			<img src="<?php echo get_template_directory_uri(); ?>/images/loading.png" />
 		</div>
 	</div>
 </div>
@@ -121,7 +123,7 @@
 				
 					<div class="main_copy">
 						<div>
-							<p class="kerning ja0">明和エンジニアリング株式会社</p>SINCE 1900｜昭和00年創業</div>
+							<p class="kerning ja0">明和エンジニアリング株式会社</p><span class="first-year">SINCE1991</span></div>
 						<div>
 							<p class="kerning ja0 opa"><span>明和エンジニアリング株式会社</span></p>
 						</div>

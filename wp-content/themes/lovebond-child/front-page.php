@@ -52,7 +52,8 @@ get_header(); ?>
 				</div>	
 
 				<div class="right-txt-btn">
-					<a href="#" class="">私たちについて</a>
+				
+				<a href="<?php echo esc_url( home_url( '/about' ) ); ?>">私たちについて</a>
 				</div>	
 
 				</div>	
@@ -195,9 +196,9 @@ get_header(); ?>
 					?>
 				</ul>
 				
-				<div class="service-list-btn">
+				<!-- <div class="service-list-btn">
 					<a href="#" class="">サービスについて</a>
-				</div>	
+				</div>	 -->
 				
 			</div>	
 
@@ -238,7 +239,7 @@ get_header(); ?>
 					</div>	
 
 					<div class="left-txt-btn">
-						<a href="#" class="">作業工程のご紹介</a>
+					<a href="<?php echo esc_url( home_url( '/flow' ) ); ?>">作業工程のご紹介</a>
 					</div>	
 
 				</div>	
@@ -297,21 +298,21 @@ get_header(); ?>
 					試されるのは社員の「想像力」と「創造力」<br />
 					これまでに生み出した機械をご覧ください。
 					</p>
+					
 				</div>	
 
 				<div class="right-txt-btn">
-					<a href="#" class="">開発事例はこちら</a>
+				<a href="<?php echo esc_url( home_url( '/construction' ) ); ?>">開発事例はこちら</a>
 				</div>	
-
 				</div>	
 			</div>
 		</div>
 
+
 	</section>
+	
 	<!-- END:block-5  -->
 
-
-	
 
 
 	
