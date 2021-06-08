@@ -57,6 +57,7 @@ $green_color: #f9ba0b;
 .contents_main {
     @include breakpoint(mobile) {
         padding: 0 !important;
+        height: 300px !important;
     }
 }
 
@@ -166,7 +167,7 @@ $green_color: #f9ba0b;
 
 .main_copy {
     bottom: 370px !important;
-    margin: 0 0 0 -106px !important;
+    margin: 0 0 0 -135px !important;
     @include breakpoint(mobile) {
         display: none;
         margin: 0 0 0 0 !important;
@@ -535,7 +536,7 @@ ul.max-menu {
     .main_slide {
         height: 500px;
         @include breakpoint(mobile) {
-            height: 30%;
+            height: 100%;
         }
         .sub_img:before {
             background: none !important;
@@ -591,7 +592,7 @@ ul.max-menu {
 }
 
 .main_menu_block_open {
-    background: #fff;
+    background: #333;
 }
 
 @media (min-width:641px) and (max-width:768px) {
@@ -744,6 +745,12 @@ ul.max-menu {
     .contents_block {
         position: relative;
         margin: 0px 0px;
+    }
+    .sp_copy {
+        text-align: center;
+        font-weight: bold;
+        display: none;
+        font-size: 25px;
     }
 }
 
@@ -1448,8 +1455,14 @@ ul.max-menu {
         margin-bottom: 20px;
     }
     .footer-about-in {
-        max-width: 440px;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
         margin: 0 auto;
+        @include breakpoint(mobile) {
+            font-size: 20px;
+        }
         ul {
             display: flex;
             list-style: none;

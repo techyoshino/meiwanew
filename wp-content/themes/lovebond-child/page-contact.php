@@ -11,7 +11,7 @@
  * @since Lovebond Lite 1.0.0
  */
 
-get_header(cont); ?>
+get_header(2); ?>
 
 <!-- BEGIN: BLOG -->
 

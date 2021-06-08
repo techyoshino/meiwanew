@@ -166,10 +166,12 @@ $lovebond_lite_whatsapp_url	= get_theme_mod('lovebond_lite_whatsapp_link', '#');
             <section class="footer-about">
 
                 <div class="footer-about-in">
-
+                
                     <div class="footer-about-in-cap-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/meiwa-footer-logo.svg" />
-                    </div> <!-- //footer-about-in-cap-img -->
+                        明和エンジニアリング株式会社
+                    </div> 
+               
+                    <!-- //footer-about-in-cap-img -->
                         
 
                 </div>
@@ -208,23 +210,6 @@ $lovebond_lite_whatsapp_url	= get_theme_mod('lovebond_lite_whatsapp_link', '#');
 
 <?php
 /*
-<script>
-jQuery(function($) {
-    $('.box').bgSwitcher({
-      images: ['/meiwa-engineering/wp-content/themes/lovebond-lite/images/1.jpg', '/meiwa-engineering/wp-content/themes/lovebond-lite/images/2.jpg', '/meiwa-engineering/wp-content/themes/lovebond-lite/images/3.jpg', '/meiwa-engineering/wp-content/themes/lovebond-lite/images/4.jpg'], // 切り替える背景画像
-      Interval: 5000, //切り替えの間隔 1000=1秒
-      start: true, //$.fn.bgswitcher(config)をコールした時に切り替えを開始
-      loop: true, //切り替えをループする
-      shuffle: false, //背景画像の順番をシャッフルする
-      effect: "fade", //エフェクトの種類 (fade / blind / clip / slide / drop / hide)
-      duration: 1000, //エフェクトの時間 1000=1秒
-      easing: "swing", //エフェクトのイージング 
-    });
-  });
-</script>	
-*/
-?>
-
 <script>
 
 function uaSetting() {
@@ -278,16 +263,6 @@ function popupAnimation(e) {
 
 function thanksAnimation() { popupFlg = !0, $("#thanks").removeClass("none"), $(".popup").removeClass("popup_off"), $(".popup").addClass("popup_on"), $(".popup").removeClass("none") }
 
-// function contactLoad() {
-//     var e = document.createElement("script");
-//     e.type = "text/javascript", e.id = "mfpjs", e.charset = "UTF-8";
-//     var s = new Date,
-//         a = s.getHours(),
-//         i = s.getMinutes(),
-//         n = s.getSeconds(),
-//         o = a.toString() + i.toString() + n.toString();
-//     e.src = "https://higashinetd.jp/mailformpro/mailformpro.cgi?" + o, $("form").after(e), setupDes()
-// }
 
 function contactClear() { $(".formarea").each(function() { $(this).val("") }) }
 
@@ -362,19 +337,15 @@ $(document).on("click", ".target", function(e) { e.preventDefault(); var s = $(t
         uaSetting(), commonSetting(), pageSetting(), 0 == $("body")
             .hasClass("safari") && $(".pc #policy")
             .niceScroll({ cursorcolor: "#ffffff", cursorwidth: "0", cursorborder: "none", scrollspeed: 50, mousescrollstep: 30, hwacceleration: !0 }),
-            // $.ajax({
-            //     type: "GET",
-            //     url: "https://higashinetd.jp/ig_process.php",
-            //     dataType: "html",
-            //     success: function(e) { snsData = $(e), newsSetting(snsData) }
-            // }),
+
             wW > 640 ? preload("")
 
         : preload("")
     }),
     $(window).on("load", function() { $("html,body").animate({ scrollTop: 0 }, 1) }), $(window).on("resize", commonSetting), $(window).on("resize scroll", scrollAnimation), $(document).on("click", ".header_button_inner", menuAnimation), $(document).on("click", ".faq_q", faqAnimation), $(document).on("click", ".popup_button", popupAnimation), $(document).on("mouseenter", ".pc .menu_block_list", function() { 0 == $(this).hasClass("menu_block_list_on") && ($(this).removeClass("menu_block_list_off"), $(this).addClass("menu_block_list_on")) }), $(document).on("mouseleave", ".pc .menu_block_list", function() { $(this).hasClass("menu_block_list_on") && ($(this).removeClass("menu_block_list_on"), $(this).addClass("menu_block_list_off")) }), $(document).on("mouseenter", ".pc .line_button", function() { 0 == $(this).hasClass("line_button_on") && ($(this).removeClass("line_button_off"), $(this).addClass("line_button_on")) }), $(document).on("mouseleave", ".pc .line_button", function() { $(this).hasClass("line_button_on") && ($(this).removeClass("line_button_on"), $(this).addClass("line_button_off")) });
 </script>	
-
+*/
+?>
 
 </body>
 </html>

@@ -67,7 +67,7 @@ function lovebond_lite_theme_stylesheet()
 
 
 	// ADD YOSHINO
-	//wp_enqueue_script('Ycommon',get_template_directory_uri().'/js/common.min.js',array('jquery'),'1.0',true );
+	wp_enqueue_script('Ycommon',get_template_directory_uri().'/js/common.min.js',array('jquery'),'1.0',true );
 
 
 	
