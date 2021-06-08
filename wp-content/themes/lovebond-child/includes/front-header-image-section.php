@@ -14,7 +14,7 @@
 	<div class="loading_inner">
 		<div class="loading_logo">
 			<div><span class="opa"></span><span></span></div>
-			<img src="img/mg3.svg" alt="SINCE 1900｜昭和00年創業">
+			<img src="img/mg3.svg" alt="SINCE 1991｜平成3年創業">
 		</div>
 	</div>
 </div>
@@ -32,7 +32,7 @@
 					<h1>明和エンジニアリング株式会社</h1>
 				</div>
 				<div class="main_txt_title_cap">
-					<p>SINCE 1900｜昭和00年創業</p>
+					<p>SINCE 1991｜平成3年創業</p>
 				</div>
 			</div>
 		</div> -->
@@ -121,7 +121,7 @@
 				
 					<div class="main_copy">
 						<div>
-							<p class="kerning ja0">明和エンジニアリング株式会社</p>SINCE 1900｜昭和00年創業</div>
+							<p class="kerning ja0">明和エンジニアリング株式会社</p>SINCE 1991｜平成3年創業</div>
 						<div>
 							<p class="kerning ja0 opa"><span>明和エンジニアリング株式会社</span></p>
 						</div>

@@ -88,7 +88,7 @@ get_header(cont); ?>
 						<div class="flow_title"><p class="">05</p><p class="">組み立て開始</p></div>
 						<div class="flow_txt">
 						自社工場にて部品や治具の加工、製造、組み立てを開始します。
-						<img src="<?php echo get_template_directory_uri(); ?>/images/flow-1.jpg" />
+						<img src="<?php echo get_template_directory_uri(); ?>/images/Q-15.jpg" />
 						</div>	
 					</div>
 				</div>
@@ -109,7 +109,7 @@ get_header(cont); ?>
 						<div class="flow_title"><p class="">07</p><p class="">納品</p></div>
 						<div class="flow_txt">
 						ご指定の場所に設置し、問題なく稼働するようにセッティングするまでが納品です。
-						<img src="<?php echo get_template_directory_uri(); ?>/images/flow-2.jpg" />
+						<img src="<?php echo get_template_directory_uri(); ?>/images/Q-14.jpg" />
 						</div>	
 					</div>
 				</div>

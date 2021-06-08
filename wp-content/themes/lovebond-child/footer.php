@@ -91,7 +91,7 @@ $lovebond_lite_whatsapp_url	= get_theme_mod('lovebond_lite_whatsapp_link', '#');
 
                             <div class="col-md-6 recruit-inner-left">
                             
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" />
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/Q-17.jpg" />
                                 <div class="clearfix"></div>
                             </div>
                         
@@ -103,10 +103,10 @@ $lovebond_lite_whatsapp_url	= get_theme_mod('lovebond_lite_whatsapp_link', '#');
                                 <p class="recruit-title">RECRUIT</p>
                             
                                 <div class="recruit-inner-right-txt">
-                                    <p class="b">正社員募集中</p>
+                                    <p class="b">私たちと一緒に働きませんか？</p>
                                     <p>
-                                    東根東北電化では、一緒に働く仲間を募集しています。<br />
-                                    興味がある方は、お気軽にご連絡ください。
+                                    まだ世に無いモノを作り出す喜び<br />
+                                    明和エンジニアリングで味わえます
                                     </p>
                                 </div>	
 

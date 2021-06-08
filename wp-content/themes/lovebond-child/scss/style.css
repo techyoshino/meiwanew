@@ -6,7 +6,7 @@
 /* Base */
 body {
   color: #444;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: "Noto Sans JP",'M PLUS Rounded 1c', sans-serif;
   font-size: 18px;
   line-height: 1.6;
   word-wrap: break-word;
@@ -138,7 +138,7 @@ tt,
 var {
   background-color: #f4f5f6;
   color: #666;
-  font-family: Consolas, "Courier New", monospace;
+  font-family: "Noto Sans JP",Consolas, monospace;
   font-size: 90%;
 }
 
@@ -244,7 +244,7 @@ address {
 pre {
   background-color: #f4f5f6;
   color: #666;
-  font-family: Consolas, "Courier New", monospace;
+  font-family: "Noto Sans JP",Consolas, monospace;
   font-size: 90%;
   line-height: 1.4;
   margin: 0 0 1.7em;
@@ -4179,11 +4179,11 @@ img {
 }
 
 .ja0 {
-  font-family: '游ゴシック', 'Yu Gothic', YuGothic, 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ヒラギノ角ゴ W3', 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
+  font-family: "Noto Sans JP",'游ゴシック', 'Yu Gothic', YuGothic, 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ヒラギノ角ゴ W3', 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
 }
 
 .ja1 {
-  font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ヒラギノ角ゴ W3', '游ゴシック', 'Yu Gothic', YuGothic, 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
+  font-family: "Noto Sans JP",'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ヒラギノ角ゴ W3', '游ゴシック', 'Yu Gothic', YuGothic, 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
 }
 
 .en0 {
