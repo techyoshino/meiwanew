@@ -41,15 +41,14 @@ get_header(cont); ?>
 							
 							<div class="left-txt-cap">
 
-							<h4>「電気のことで地域の人を困らせない。
-							それが、私たちの恩返し。」<br />
-							機械は"理屈"で動く</h4>
+							<h4>機械は「理屈」で動く</h4>
 							</div>
 
 							<div class="left-txt-in">
 								<p>
-								東根東北電化という社名の通り、当社は東根に根ざした電気屋として皆さまに支えられてきました。私が常に思うのは「この地域には、この職業が必要なんだ」ということ。地域から、いわゆる“まちの電気屋”が減っているなかで、ずっと支えていただいたことへの恩返しの意味も込めて、電気設備のことでお困りのときには迅速かつマジメな対応でお役に立てればと思っております。
-								弊社は１９９１年（平成３年）１月に、工作機械・専用機械などのメンテナンスサービスを主たる業務目的として創立いたしました。創業以来、元気で明るい企業としてお客様にご愛顧を賜り、今日にいたっております。現在ではエンジニアリング業務をメインに、Q, C, S, D（高品質、低コスト、スピード、納期）をモットーに、最新鋭の設備とともに研究を重ね、たゆまぬ努力でものづくりの創造に挑戦しています。今後ともより一層のご指導・ご鞭撻をいただきますよう、よろしくお願い申し上げます。
+								弊社は1991年（平成3年）1月に、工作機械・専用機械などのメンテナンスサービスを主たる業務目的として創立いたしました。創業以来、元気で明るい企業としてお客様にご愛顧を賜り、今日にいたっております。</p>
+								<p>現在ではエンジニアリング業務をメインに、Q, C, S, D（高品質、低コスト、スピード、納期）をモットーに、最新鋭の設備とともに研究を重ね、たゆまぬ努力でものづくりの創造に挑戦しています。</p>
+								<p>今後ともより一層のご指導・ご鞭撻をいただきますよう、よろしくお願い申し上げます。
 								</p>
 							</div>	
 
@@ -183,11 +182,11 @@ get_header(cont); ?>
 					
 					<div class="h-list">	
 						<div>
-							<p class="h-list-year">1949年5月</p>
+							<p class="h-list-year">1991年1月5日</p>
 						</div>
 						<div>
 						
-							<p class="">初代代表・工藤常雄が東根市野田77-4にて創業</p>
+							<p class="">工作機械・専用機械などのメンテナンスサービスを主な事業目的として川崎市塚越に創立</p>
 							<span class=""></span>
 						</div>
 						<div class="clear"></div>
@@ -195,11 +194,11 @@ get_header(cont); ?>
 
 					<div class="h-list">	
 						<div>
-							<p class="h-list-year">1949年5月</p>
+							<p class="h-list-year">1996年10月</p>
 						</div>
 						<div>
 						
-							<p class="">初代代表・工藤常雄が東根市野田77-4にて創業</p>
+							<p class="">事業拡大および高精度加工維持のため、本社・工場を東京都蒲田に移転</p>
 							<span class=""></span>
 						</div>
 						<div class="clear"></div>
@@ -207,11 +206,11 @@ get_header(cont); ?>
 
 					<div class="h-list">	
 						<div>
-							<p class="h-list-year">1949年5月</p>
+							<p class="h-list-year">2004年9月</p>
 						</div>
 						<div>
 						
-							<p class="">初代代表・工藤常雄が東根市野田77-4にて創業</p>
+							<p class="">本社・工場を川崎市に移転</p>
 							<span class=""></span>
 						</div>
 						<div class="clear"></div>
@@ -219,11 +218,11 @@ get_header(cont); ?>
 
 					<div class="h-list">	
 						<div>
-							<p class="h-list-year">1949年5月</p>
+							<p class="h-list-year">2006年2月</p>
 						</div>
 						<div>
 						
-							<p class="">初代代表・工藤常雄が東根市野田77-4にて創業</p>
+							<p class="">更なる事業拡大のため、本社・自社工場を横浜市鶴見区駒岡に再移転、現在に至る</p>
 							<span class=""></span>
 						</div>
 						<div class="clear"></div>
@@ -235,7 +234,7 @@ get_header(cont); ?>
 			</div>			
 
 			<div class="history-img col-md-6">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/about-3.jpg" />
+				<img src="<?php echo get_template_directory_uri(); ?>/images/Q-16.jpg" />
 				
 			</div>			
 

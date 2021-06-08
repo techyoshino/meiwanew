@@ -139,7 +139,7 @@ tt,
 var {
   background-color: #f4f5f6;
   color: #666;
-  font-family: Consolas, "Courier New", monospace;
+  font-family: "Noto Sans JP", Consolas, monospace;
   font-size: 90%;
 }
 
@@ -245,7 +245,7 @@ address {
 pre {
   background-color: #f4f5f6;
   color: #666;
-  font-family: Consolas, "Courier New", monospace;
+  font-family: "Noto Sans JP", Consolas, monospace;
   font-size: 90%;
   line-height: 1.4;
   margin: 0 0 1.7em;

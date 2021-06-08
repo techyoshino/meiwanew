@@ -123,7 +123,7 @@
 				
 					<div class="main_copy">
 						<div>
-							<p class="kerning ja0">明和エンジニアリング株式会社</p><span class="first-year">SINCE1991</span></div>
+							<p class="kerning ja0">明和エンジニアリング株式会社</p><span class="first-year">SINCE 1991｜平成3年創業</span></div>
 						<div>
 							<p class="kerning ja0 opa"><span>明和エンジニアリング株式会社</span></p>
 						</div>

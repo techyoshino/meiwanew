@@ -42,7 +42,7 @@ get_header(); ?>
 				<div class="right-txt">
 				
 				<div class="right-txt-cap">
-					<h3>機械は"理屈"で動く</h3>
+					<h3>機械は「理屈」で動く</h3>
 				</div>
 
 				<div class="right-txt-in">
@@ -310,7 +310,7 @@ get_header(); ?>
 
 
 	</section>
-	
+
 	<!-- END:block-5  -->
 
 
