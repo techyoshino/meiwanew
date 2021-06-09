@@ -58,6 +58,11 @@ get_header(2); ?>
 						</p>
 						<p>今後ともより一層のご指導・ご鞭撻をいただきますよう、よろしくお願い申し上げます。
 						</p>
+					</div>
+
+					<div class="left-txt-bottom">
+						<span>代表取締役</span>
+						<p>小林 謹治</p>
 					</div>	
 
 					</div>	
