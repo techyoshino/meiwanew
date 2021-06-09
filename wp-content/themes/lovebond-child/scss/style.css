@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* Global
 ------------------------------------------------------------ */
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap");
@@ -6,13 +5,14 @@
 /* Base */
 body {
   color: #444;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 18px;
   line-height: 1.6;
   word-wrap: break-word;
 }
 
 body:lang(ja) {
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 1.8;
@@ -25,7 +25,7 @@ h4,
 h5,
 h6,
 .site-title {
-  font-family: 'M PLUS Rounded 1c', sans-serif !important;
+  font-family: 'Noto Sans JP', sans-serif !important;
 }
 
 ::-moz-selection {
@@ -471,6 +471,12 @@ textarea::placeholder {
 @media (max-width: 990px) {
   .contents_main {
     padding: 0 !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .contents_main_cont {
+    padding: 0 !important;
     height: 300px !important;
   }
 }
@@ -591,7 +597,7 @@ textarea::placeholder {
 
 .main_copy {
   bottom: 370px !important;
-  margin: 0 0 0 -135px !important;
+  color: #484848 !important;
 }
 
 @media (max-width: 990px) {
@@ -998,6 +1004,10 @@ ul.max-menu {
   }
 }
 
+.ja0 {
+  font-family: 'Noto Sans JP', sans-serif !important;
+}
+
 .home-slider-wrapper {
   padding: 30px 30px 0 400px;
   height: 670px;
@@ -1206,6 +1216,7 @@ ul.max-menu {
 .about .block-1 .block-1_inner_img_w_all {
   margin: 10px 0px;
   clear: both;
+  padding-top: 30px;
 }
 
 .about .block-2 {
@@ -1839,6 +1850,7 @@ ul.max-menu {
 .recruitpage .recruitpage_contact p {
   font-size: 26px;
   font-weight: bold;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 990px) {
@@ -2052,7 +2064,19 @@ ul.max-menu {
   color: #333;
 }
 
+.footer-about .menu {
+  position: unset;
+}
+
 footer {
+  text-align: center;
+}
+
+.notfound-inner-wrapper .notfound-title {
+  text-align: center;
+}
+
+.notfound-inner-wrapper .backtohome {
   text-align: center;
 }
 
@@ -4270,14 +4294,6 @@ img {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ja0 {
-  font-family: '游ゴシック', 'Yu Gothic', YuGothic, 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ヒラギノ角ゴ W3', 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
-}
-
-.ja1 {
-  font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ヒラギノ角ゴ W3', '游ゴシック', 'Yu Gothic', YuGothic, 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
-}
-
 .en0 {
   font-family: Lato, sans-serif;
   font-weight: 400;
@@ -5486,7 +5502,6 @@ img {
   width: auto;
   height: 110px;
   bottom: 0;
-  margin: 0 0 0 -130px;
 }
 
 .main_copy > p {
@@ -5504,7 +5519,6 @@ img {
 
 .main_copy p {
   margin: 0 0 25px;
-  color: #e6e6e6;
 }
 
 .main_copy img {
@@ -5514,7 +5528,7 @@ img {
 }
 
 .main_copy > div:nth-child(2) {
-  padding: 0 0 0 325px;
+  padding: 0 0 0 340px;
 }
 
 .main_copy > div:nth-child(2) p {
@@ -5687,14 +5701,8 @@ textarea {
   .main_logo {
     width: 250px;
   }
-  .contents_main_right {
-    padding-left: 440px;
-  }
   .main_logo {
     margin: 70px 0 0 -125px;
-  }
-  #home .main_logo {
-    margin: 0 0 0 -125px;
   }
   .main_title {
     margin: 0 0 0 115px;
@@ -5707,6 +5715,17 @@ textarea {
   }
   .main_copy > div:nth-child(2) {
     padding: 0 0 0 350px;
+  }
+}
+
+.main_copy {
+  height: 120px;
+  margin: 0 0 0 -140px;
+}
+
+@media (min-height: 830px) {
+  .main_copy {
+    margin: 0px 0 0 -155px;
   }
 }
 
@@ -5739,7 +5758,7 @@ textarea {
   }
   .main_copy {
     height: 120px;
-    margin: 0 0 0 -135px;
+    margin: 0 0 0 -100px;
   }
   .main_title {
     margin: 0 0 0 130px;
@@ -5751,7 +5770,7 @@ textarea {
     font-size: 54px;
   }
   .main_copy > div:nth-child(2) {
-    padding: 0 0 0 375px;
+    padding: 0 0 0 380px;
   }
 }
 

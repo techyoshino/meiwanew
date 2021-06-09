@@ -83,51 +83,7 @@
 
 	
 
-<header<?php if( !is_front_page() ) { ?> id="cotnents-page" <?php } ?>>						
-	<section id="slider-wrapper" class="contents-page">
 
-	
-
-		<!--/MAIN/-->
-		<div id="home">
-			<div class="contents_main contents_main_cont  fix_h">
-				<div class="contents_main_inner">
-					<div class="contents_main_right">
-							
-						
-						<div class="main_slide">
-							
-							<div class="sub_img anim" style="background-image: url(<?php echo wp_get_attachment_url( get_post_thumbnail_id() ); ?>)">
-							</div>
-						
-						</div>
-						
-						<a href="https://higashinetd.jp/" class=""></a>
-						
-						
-					</div>
-
-
-					<div class="contents_main_left">
-						
-						<a href="/" class="logo-img"><img id="lovebond-logo-img" src="<?php echo esc_url( get_theme_mod('lovebond_lite_logo_img') ); ?>" alt"<?php bloginfo('name'); ?>"></a>
-							
-						<div class="main_copy off">
-						
-								<p><?php the_title(); ?></p>
-						</div>
-					</div>
-
-					<!-- <div class="contents_main_scroll contents_scroll">
-						<div><span class="opa"></span></div>
-					</div> -->
-
-				</div>
-			</div>
-		</div>
-				
-	</section>
-</header>
 	<!-- END: HEADER -->
 
 
@@ -141,7 +97,5 @@ $slug_name = $post->post_name;
 
 	
 <div class="page content-pages <?php echo $slug_name; ?>">
-
-<h2 class="on sp_copy"><?php the_title(); ?></h2>
 
 	
