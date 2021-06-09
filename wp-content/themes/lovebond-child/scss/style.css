@@ -18,6 +18,16 @@ body:lang(ja) {
   line-height: 1.8;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title {
+  font-family: 'M PLUS Rounded 1c', sans-serif !important;
+}
+
 ::-moz-selection {
   background-color: #def;
 }
@@ -446,7 +456,8 @@ textarea::placeholder {
 
 @media (max-width: 990px) {
   .cap {
-    font-size: 20px;
+    font-size: 16px;
+    padding: 0px 10px;
   }
 }
 
@@ -460,6 +471,7 @@ textarea::placeholder {
 @media (max-width: 990px) {
   .contents_main {
     padding: 0 !important;
+    height: 300px !important;
   }
 }
 
@@ -579,7 +591,7 @@ textarea::placeholder {
 
 .main_copy {
   bottom: 370px !important;
-  margin: 0 0 0 -106px !important;
+  margin: 0 0 0 -135px !important;
 }
 
 @media (max-width: 990px) {
@@ -912,7 +924,7 @@ ul.max-menu {
 
 @media (max-width: 990px) {
   #cotnents-page .main_slide {
-    height: 30%;
+    height: 100%;
   }
 }
 
@@ -977,7 +989,7 @@ ul.max-menu {
 }
 
 .main_menu_block_open {
-  background: #fff;
+  background: #333;
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
@@ -1063,6 +1075,12 @@ ul.max-menu {
   text-shadow: 1px 1px 1px #000;
 }
 
+@media (max-width: 990px) {
+  #top-wrapper .block-2 {
+    padding: 0px 15px;
+  }
+}
+
 #top-wrapper .block-3 ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1132,9 +1150,26 @@ ul.max-menu {
   }
 }
 
+.machine-photo-sp {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .machine-photo-pc {
+    display: none;
+  }
+}
+
 .content-pages .contents_block {
   position: relative;
   margin: 0px 0px;
+}
+
+.content-pages .sp_copy {
+  text-align: center;
+  font-weight: bold;
+  display: none;
+  font-size: 25px;
 }
 
 .about .block-1 .block-1_inner_col {
@@ -1411,9 +1446,25 @@ ul.max-menu {
   color: #f9ba0b;
 }
 
+.construction .construction-photo-sp {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .construction .construction-photo-pc {
+    display: none;
+  }
+}
+
 .construction .block-1 .block-1_inner {
   overflow: hidden;
   margin: 100px 0px;
+}
+
+@media (max-width: 990px) {
+  .construction .block-1 .block-1_inner {
+    margin: 0px 0px;
+  }
 }
 
 .construction .block-2 ul {
@@ -1949,8 +2000,17 @@ ul.max-menu {
 }
 
 .footer-about .footer-about-in {
-  max-width: 440px;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
   margin: 0 auto;
+}
+
+@media (max-width: 990px) {
+  .footer-about .footer-about-in {
+    font-size: 20px;
+  }
 }
 
 .footer-about .footer-about-in ul {

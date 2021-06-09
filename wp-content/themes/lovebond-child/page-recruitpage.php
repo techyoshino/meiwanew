@@ -15,7 +15,7 @@
  * @since Lovebond Lite 1.0.0
  */
 
-get_header(cont); ?>
+get_header(2); ?>
 
 <!-- BEGIN: BLOG -->
 
@@ -114,6 +114,8 @@ get_header(cont); ?>
 				<div class="content-wrap col-md-6">
 
 					<div class="left-txt">
+
+					<img class="left-txt-in-photo1 on" src="<?php echo get_template_directory_uri(); ?>/images/Q-12.jpg" />
 						
 						<div class="left-txt-cap">
 							<h3>社員の声</h3>
@@ -122,7 +124,7 @@ get_header(cont); ?>
 						<div class="left-txt-in">
 							<h4>技術課 機械担当　小林慎樹</h4>
 
-							<img class="left-txt-in-photo1 on" src="<?php echo get_template_directory_uri(); ?>/images/Q-12.jpg" />
+							
 							
 							<p>
 							以前は半導体製造装置関連の設計をしており、工作機械の関する知識はまったくないまま、明和エンジニアリングに転職してきました。</p>
