@@ -8,7 +8,8 @@
 
 body {
     color: #444;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    //font-family: 'M PLUS Rounded 1c', sans-serif;
     //  font-family: '游ゴシック', 'Yu Gothic', YuGothic, 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ヒラギノ角ゴ W3', 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 18px;
     line-height: 1.6;
@@ -17,6 +18,7 @@ body {
 
 body:lang(ja) {
     // font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 15px;
     font-weight: 500;
     line-height: 1.8;
@@ -29,7 +31,8 @@ h4,
 h5,
 h6,
 .site-title {
-    font-family: 'M PLUS Rounded 1c', sans-serif !important;
+    //font-family: 'M PLUS Rounded 1c', sans-serif !important;
+    font-family: 'Noto Sans JP', sans-serif !important;
 }
 
  ::selection {

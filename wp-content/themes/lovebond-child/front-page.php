@@ -22,10 +22,10 @@ get_header(); ?>
 	<section class="block-1 contents_block">
 		
 			
-		<div class="cap">
+		<!-- <div class="cap">
 		オーダーメイドで機械を作る<br />
 		マザーマシンのセットアップメーカー
-		</div>	
+		</div>	 -->
 
 		<div class="block-1_inner scroll_element scroll_off0">
 
@@ -152,48 +152,7 @@ get_header(); ?>
 						</div>
 					</li>
 
-					<?php
-					/*
-					<li>
-						<div class="service-list-icon">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/icon-test.svg" />
-						</div>
-						<div class="service-list-txt">
-							新築工事
-						</div>
-					</li>
-
-					
-
-					<li>
-						<div class="service-list-icon">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/icon-test.svg" />
-						</div>
-						<div class="service-list-txt">
-							新築工事
-						</div>
-					</li>
-
-					<li>
-						<div class="service-list-icon">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/icon-test.svg" />
-						</div>
-						<div class="service-list-txt">
-							新築工事
-						</div>
-					</li>
-
-					<li>
-						<div class="service-list-icon">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/icon-test.svg" />
-						</div>
-						<div class="service-list-txt">
-							新築工事
-						</div>
-					</li>
-
-					*/
-					?>
+				
 				</ul>
 				
 				<!-- <div class="service-list-btn">

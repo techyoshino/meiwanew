@@ -38,10 +38,10 @@ $(document).ready(function() {
 		autohidemode: false,
 		horizrailenabled: false
 	});
-	jQuery('#menu').superfish();
-	jQuery('#menu li:has(ul)').each(function(){
-		jQuery(this).addClass('has_child')
-	});
+	// jQuery('#menu').superfish();
+	// jQuery('#menu li:has(ul)').each(function(){
+	// 	jQuery(this).addClass('has_child')
+	// });
 
 	jQuery('.has_child > a').after('<span class="this_child"></span>');
 

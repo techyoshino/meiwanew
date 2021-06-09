@@ -113,11 +113,11 @@ img {
 }
 
 .ja0 {
-    font-family: '游ゴシック', 'Yu Gothic', YuGothic, 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ヒラギノ角ゴ W3', 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif
+    // font-family: '游ゴシック', 'Yu Gothic', YuGothic, 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ヒラギノ角ゴ W3', 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif
 }
 
 .ja1 {
-    font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ヒラギノ角ゴ W3', '游ゴシック', 'Yu Gothic', YuGothic, 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif
+    //  font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ヒラギノ角ゴ W3', '游ゴシック', 'Yu Gothic', YuGothic, 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif
 }
 
 .en0 {
@@ -1318,7 +1318,7 @@ img {
     width: auto;
     height: 110px;
     bottom: 0;
-    margin: 0 0 0 -130px
+    //  margin: 0 0 0 -130px
 }
 
 .main_copy>p {
@@ -1336,7 +1336,7 @@ img {
 
 .main_copy p {
     margin: 0 0 25px;
-    color: rgba(230, 230, 230, 1)
+    //  color: rgba(230, 230, 230, 1)
 }
 
 .main_copy img {
@@ -1346,7 +1346,7 @@ img {
 }
 
 .main_copy>div:nth-child(2) {
-    padding: 0 0 0 325px
+    padding: 0 0 0 340px
 }
 
 .main_copy>div:nth-child(2) p {
@@ -1515,13 +1515,13 @@ textarea {
         width: 250px
     }
     .contents_main_right {
-        padding-left: 440px
+        //  padding-left: 440px
     }
     .main_logo {
         margin: 70px 0 0 -125px
     }
     #home .main_logo {
-        margin: 0 0 0 -125px
+        //   margin: 0 0 0 -125px
     }
     // .main_copy {
     //     height: 95px;
@@ -1538,6 +1538,17 @@ textarea {
     }
     .main_copy>div:nth-child(2) {
         padding: 0 0 0 350px
+    }
+}
+
+.main_copy {
+    height: 120px;
+    margin: 0 0 0 -140px
+}
+
+@media (min-height:830px) {
+    .main_copy {
+        margin: 0px 0 0 -155px;
     }
 }
 
@@ -1570,7 +1581,7 @@ textarea {
     }
     .main_copy {
         height: 120px;
-        margin: 0 0 0 -135px
+        margin: 0 0 0 -100px
     }
     .main_title {
         margin: 0 0 0 130px
@@ -1582,7 +1593,7 @@ textarea {
         font-size: 54px
     }
     .main_copy>div:nth-child(2) {
-        padding: 0 0 0 375px
+        padding: 0 0 0 380px
     }
 }
 
