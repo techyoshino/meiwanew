@@ -20,6 +20,8 @@
 }
 
 
+
+
 /* basecolor
 ------------------------------------------------------------ */
 
@@ -521,6 +523,10 @@ ul.max-menu {
     @include breakpoint(mobile) {
         height: auto;
     }
+}
+
+.ja0 {
+    font-family: 'Noto Sans JP', sans-serif !important;
 }
 
 // CONTENTS HEADER
