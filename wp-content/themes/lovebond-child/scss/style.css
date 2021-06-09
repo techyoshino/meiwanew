@@ -1210,6 +1210,7 @@ ul.max-menu {
 .about .block-1 .block-1_inner_img_w_all {
   margin: 10px 0px;
   clear: both;
+  padding-top: 30px;
 }
 
 .about .block-2 {
@@ -1843,6 +1844,7 @@ ul.max-menu {
 .recruitpage .recruitpage_contact p {
   font-size: 26px;
   font-weight: bold;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 990px) {

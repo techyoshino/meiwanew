@@ -211,12 +211,6 @@ get_header(); ?>
 	<!-- BEGIN:block-4  -->
 
 	<section class="block-4 contents_block">
-		
-			
-		<div class="cap">
-		オーダーメイドで機械を作る<br />
-		マザーマシンのセットアップメーカー
-		</div>	
 
 		<div class="block-4_inner scroll_element scroll_off0">
 

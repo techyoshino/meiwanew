@@ -88,7 +88,7 @@ $lovebond_lite_whatsapp_url	= get_theme_mod('lovebond_lite_whatsapp_link', '#');
                     <div class="row">
 
                     <?php if(is_page( '29' )): ?>
-                    特定の固定ページに表示させたい内容
+                    
                     <?php else: ?>
 
                     <a href="<?php echo esc_url( home_url( '/recruitpage' ) ); ?>">
@@ -139,7 +139,7 @@ $lovebond_lite_whatsapp_url	= get_theme_mod('lovebond_lite_whatsapp_link', '#');
 
                         <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:0455805730">045-580-5730</a>
                         
-                        <p>8:00～17:30（第2・4土曜、日曜、祝日定休）</p>
+                        <p>8:30～17:30（土曜・日曜・祝日定休）</p>
                 
                         </div>
                     
@@ -193,7 +193,7 @@ $lovebond_lite_whatsapp_url	= get_theme_mod('lovebond_lite_whatsapp_link', '#');
     <!-- END: FOOTER -->
 
     <footer>
-    <p class="copyright">&copy; 2017-<?php echo date('Y') ?> Meiwa Engineering Co., Ltd.</p>
+    <p class="copyright">&copy; 1991-<?php echo date('Y') ?> Meiwa Engineering Co., Ltd.</p>
     </footer>
 
     <!-- BEGAIN: SCROLL -->

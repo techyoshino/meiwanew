@@ -59,6 +59,10 @@ get_header(2); ?>
 						<p>今後ともより一層のご指導・ご鞭撻をいただきますよう、よろしくお願い申し上げます。
 						</p>
 					</div>	
+					<div class="left-txt-bottom">
+						<span>代表取締役</span>
+						<p>小林 謹治</p>
+					</div>
 
 					</div>	
 				</div>
@@ -196,7 +200,7 @@ get_header(2); ?>
 
 			<?php the_content(); ?>
 
-				<!-- <table>
+				<table>
 					<tr>
 						<th>勤務時間</th>
 
@@ -236,13 +240,13 @@ get_header(2); ?>
 						
 					</tr>
 					
-				</table> -->
+				</table>
 
 				<div class="recruitpage_contact">
 					<p>
 						あなたの応募をお待ちしています
 					</p>
-					<a href="<?php echo home_url(); ?>/contact/">お問い合わせ</a>
+					<a href="<?php echo home_url(); ?>/contact/">求人に応募する</a>
 				</div>
 								
 			</div>

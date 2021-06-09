@@ -811,6 +811,7 @@ ul.max-menu {
         .block-1_inner_img_w_all {
             margin: 10px 0px;
             clear: both;
+            padding-top: 30px;
         }
     }
     .block-2 {
@@ -1347,6 +1348,8 @@ ul.max-menu {
         p {
             font-size: 26px;
             font-weight: bold;
+            padding-bottom: 20px;
+
             @include breakpoint(mobile) {
                 font-size: 18px;
             }

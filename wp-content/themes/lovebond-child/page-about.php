@@ -54,9 +54,10 @@ get_header(2); ?>
 
 							<div class="left-txt-bottom">
 								<span>代表取締役</span>
-								<p>工藤 敏幸</p>
 								<p>小林 謹治</p>
 							</div>	
+
+								<p></p>
 
 
 							</div>	
