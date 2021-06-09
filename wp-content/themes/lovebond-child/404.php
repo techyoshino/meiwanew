@@ -7,7 +7,7 @@
  * @since Lovebond Lite 1.0.0
  */
 
-get_header(404); ?>
+get_header(4); ?>
 <!-- BEGIN: ERROR SECTION -->
 	<section id="notfound-wrapper">
 
