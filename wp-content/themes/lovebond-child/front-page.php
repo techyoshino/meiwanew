@@ -228,6 +228,9 @@ get_header(); ?>
 						<h3>専用機械のセットアップ、<br />
 						その全行程をお見せします</h3>
 					</div>
+					<div class="machine-photo-sp on">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/Q-01.jpg" />
+					</div>
 
 					<div class="left-txt-in">
 						<p>
@@ -248,13 +251,13 @@ get_header(); ?>
 			</div>
 		
 
-			
-			<div class="col-md-6 right-photo">
+			<div class="machine-photo-pc">
+				<div class="col-md-6 right-photo">
 
-				<img src="<?php echo get_template_directory_uri(); ?>/images/Q-01.jpg" />
-				<div class="clearfix"></div>
+					<img src="<?php echo get_template_directory_uri(); ?>/images/Q-01.jpg" />
+					<div class="clearfix"></div>
 
-				
+				</div>
 			</div>
 		</div>
 
@@ -274,11 +277,13 @@ get_header(); ?>
 
 		<div class="block-1_inner scroll_element scroll_off0">
 
-			<div class="content-wrap col-md-6 left-photo">
-			
-			<img src="<?php echo get_template_directory_uri(); ?>/images/Q-07.jpg" />
-				<div class="clearfix"></div>
-			</div>
+			<div class="machine-photo-pc">
+				<div class="content-wrap col-md-6 left-photo">
+				
+				<img src="<?php echo get_template_directory_uri(); ?>/images/Q-07.jpg" />
+					<div class="clearfix"></div>
+				</div>
+			</div>	
 		
 
 			
@@ -289,6 +294,10 @@ get_header(); ?>
 				<div class="right-txt-cap">
 					<h3>開発・納品した機械は○○台以上<br />
 					オリジナルを生み出す社員の力</h3>
+				</div>
+
+				<div class="machine-photo-sp on">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/Q-07.jpg" />
 				</div>
 
 				<div class="right-txt-in">

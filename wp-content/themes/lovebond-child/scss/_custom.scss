@@ -40,7 +40,8 @@ $green_color: #f9ba0b;
     font-weight: bold;
     margin: 30px 0px;
     @include breakpoint(mobile) {
-        font-size: 20px;
+        font-size: 16px;
+        padding: 0px 10px;
     }
 }
 
@@ -678,6 +679,11 @@ ul.max-menu {
 }
 
 #top-wrapper {
+    .block-2 {
+        @include breakpoint(mobile) {
+            padding: 0px 15px;
+        }
+    }
     .block-3 {
         ul {
             display: flex;
@@ -735,6 +741,16 @@ ul.max-menu {
     overflow: hidden;
     @include breakpoint(mobile) {
         margin-top: 50px;
+    }
+}
+
+.machine-photo-sp {
+    display: none;
+}
+
+.machine-photo-pc {
+    @include breakpoint(mobile) {
+        display: none;
     }
 }
 
@@ -995,10 +1011,21 @@ ul.max-menu {
 // 組み立て事例　construction
 ////////////////////////////////////////////////////
 .construction {
+    .construction-photo-sp {
+        display: none;
+    }
+    .construction-photo-pc {
+        @include breakpoint(mobile) {
+            display: none;
+        }
+    }
     .block-1 {
         .block-1_inner {
             overflow: hidden;
             margin: 100px 0px;
+            @include breakpoint(mobile) {
+                margin: 0px 0px;
+            }
         }
     }
     .block-2 {

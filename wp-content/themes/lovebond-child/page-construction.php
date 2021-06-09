@@ -61,6 +61,16 @@ get_header(2); ?>
 
 			<div class="block-1_inner scroll_element scroll_off0">
 
+				<div class="construction-photo-sp on">
+
+					<div class="col-md-6 right-photo">
+
+						<img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" />
+						<div class="clearfix"></div>
+
+					</div>
+				</div>
+
 				<div class="content-wrap col-md-6">
 
 					<div class="left-txt">
@@ -79,11 +89,14 @@ get_header(2); ?>
 				
 				</div>
 
-				<div class="col-md-6 right-photo">
+				<div class="construction-photo-pc">
 
-					<img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" />
-					<div class="clearfix"></div>
+					<div class="col-md-6 right-photo">
 
+						<img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" />
+						<div class="clearfix"></div>
+
+					</div>
 				</div>
 			</div>
 			<!-- //block-1_inner -->
@@ -120,6 +133,16 @@ get_header(2); ?>
 
 			<div class="block-1_inner scroll_element scroll_off0">
 
+				<div class="construction-photo-sp on">
+
+					<div class="col-md-6 right-photo">
+
+						<img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" />
+						<div class="clearfix"></div>
+
+					</div>
+				</div>
+
 				<div class="content-wrap col-md-6">
 
 					<div class="left-txt">
@@ -138,14 +161,18 @@ get_header(2); ?>
 				
 				</div>
 
-				<div class="col-md-6 right-photo">
+				<div class="construction-photo-pc">
 
-					<img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" />
-					<div class="clearfix"></div>
+					<div class="col-md-6 right-photo">
 
+						<img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" />
+						<div class="clearfix"></div>
+
+					</div>
 				</div>
 			</div>
 			<!-- //block-1_inner -->
+
 
 		</section>
 		<!-- END:block-1  -->
