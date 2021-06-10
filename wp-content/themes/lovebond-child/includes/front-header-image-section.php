@@ -84,36 +84,9 @@
 							<div></div>
 						</div>
 					</div>
-					<a href="https://higashinetd.jp/" class="main_logo sp_disp link"></a>
+					<a href="#" class="main_logo sp_disp link"></a>
 
-					<?php
-					/*
-
-					<div class="main_loader">
-
-						<div class="main_loader_line">
-							<div class="main_loader_line_shadow"><svg x="0px" y="0px" width="250px" height="250px" viewBox="0 0 250 250" enable-background="new 0 0 250 250" xml:space="preserve"><path fill="none" stroke="#00a500" stroke-width="50" stroke-miterlimit="10" d="M0,125c0,69.035,55.963,125,125,125 c69.037,0,125-55.965,125-125C250,55.964,194.037,0,125,0"></path></svg></div>
-							<div class="main_loader_line_form opa slide_off"><svg x="0px" y="0px" width="250px" height="250px" viewBox="0 0 250 250" enable-background="new 0 0 250 250" xml:space="preserve"><path fill="none" stroke="#009f41" stroke-width="50" stroke-miterlimit="10" d="M0,125c0,69.035,55.963,125,125,125 c69.037,0,125-55.965,125-125C250,55.964,194.037,0,125,0"></path></svg></div>
-						</div>
-					
-						<div class="main_loader_text">
-							<a href="https://higashinetd.jp/service.php" class="link opa main_loader_text0 slide_on">
-								<p class="kerning ja0">業務内容</p>
-							</a>
-							<a href="https://higashinetd.jp/flow.php" class="link opa main_loader_text1">
-								<p class="kerning ja0">施工の流れ</p>
-							</a>
-							<a href="https://higashinetd.jp/company.php" class="link opa main_loader_text2">
-								<p class="kerning ja0">企業情報</p>
-							</a>
-							<a href="https://higashinetd.jp/contact.php" class="link opa main_loader_text3">
-								<p class="kerning ja0">お問い合わせ</p>
-							</a>
-						</div>
-					</div>
-
-					*/
-					?>
+				
 				</div>
 
 
