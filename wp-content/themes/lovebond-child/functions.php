@@ -8,4 +8,21 @@ function theme_enqueue_styles() {
         get_stylesheet_directory_uri() . '/style.css',
         array('style')
     );
+
+/* functions.php に記述 */
+    add_shortcode('url', 'shortcode_url');
+    function shortcode_url() {
+    return get_bloginfo('url');
+    }
+    add_shortcode('tdir', 'tmp_dir');
+    function tmp_dir() {
+    return get_template_directory_uri();
+    }
+    add_shortcode('cdir', 'child_dir');
+    function child_dir() {
+    return get_stylesheet_directory_uri();
+    }
+
+
+
 }
