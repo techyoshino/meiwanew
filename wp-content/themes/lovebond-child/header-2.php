@@ -102,7 +102,7 @@
 						
 						</div>
 						
-						<a href="https://higashinetd.jp/" class=""></a>
+						<a href="#" class=""></a>
 						
 						
 					</div>
