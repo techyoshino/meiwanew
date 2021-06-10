@@ -22,10 +22,10 @@ get_header(); ?>
 	<section class="block-1 contents_block">
 		
 			
-		<!-- <div class="cap">
+		<div class="cap">
 		オーダーメイドで機械を作る<br />
 		マザーマシンのセットアップメーカー
-		</div>	 -->
+		</div>	
 
 		<div class="block-1_inner scroll_element scroll_off0">
 
@@ -172,10 +172,10 @@ get_header(); ?>
 	<section class="block-4 contents_block">
 		
 			
-		<div class="cap">
+		<!-- <div class="cap">
 		オーダーメイドで機械を作る<br />
 		マザーマシンのセットアップメーカー
-		</div>	
+		</div>	 -->
 
 		<div class="block-4_inner scroll_element scroll_off0">
 
