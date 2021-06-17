@@ -10,58 +10,41 @@
 <?php if( get_header_image() ) { ?>
 
  <!--/LOADING/-->
+
+ <?php
+ /*
+
  <div class="loading opening">
 	<div class="loading_inner">
 		<div class="loading_logo">
 			<div><span class="opa"></span><span></span></div>
-			<!-- <img src="images/loading.svg" alt="SINCE 1900｜昭和00年創業"> -->
+			
 	
 			<img src="<?php echo get_template_directory_uri(); ?>/images/loading.png" />
 		</div>
 	</div>
 </div>
+*/
+?>
+
+
+<div id="loader-bg">
+  <div id="loader">
+	<div class="loading_logo_item">
+		<div><span class="opa"></span><span></span></div>
+		<img src="<?php echo get_template_directory_uri(); ?>/images/loading.png" />
+	</div>
+  </div>
+</div>
+<div id="wrap">
+  <!-- ロード後に表示させたい内容 -->
+</div>
+
 		
 		
 <section id="slider-wrapper" class="wrap wrap_on">
 
-	<!-- <div class="contents_main_left">
 
-		<a href="<?php echo esc_url(home_url('/')); ?>" class="logo-img"><img id="lovebond-logo-img" src="<?php echo esc_url( get_theme_mod('lovebond_lite_logo_img') ); ?>" alt"<?php bloginfo('name'); ?>"></a>
-			
-		
-		<div class="main_txt">
-				<div class="main_txt_title">
-					<h1>明和エンジニアリング株式会社</h1>
-				</div>
-				<div class="main_txt_title_cap">
-					<p>SINCE 1900｜昭和00年創業</p>
-				</div>
-			</div>
-		</div> -->
-
-
-	<!-- header image -->
-
-
-		<?php
-			/*
-		<div class="home-slider-wrapper">
-					
-			https://okuden-labo.com/background-slideshowx
-
-			<img alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" class="ad-slider-image"  src="<?php header_image(); ?>" />
-			
-
-			
-			<div class="box">
-		
-			</div>
-			
-
-		</div>
-		*/
-		?>
-	
 	<!-- </div> -->
 
 

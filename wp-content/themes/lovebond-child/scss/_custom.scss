@@ -19,16 +19,148 @@
     }
 }
 
+#loader-bg {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #000;
+    z-index: 1;
+}
+
+#loader {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+}
+
 
 /* basecolor
 ------------------------------------------------------------ */
 
-$green_color: #f9ba0b;
+$green_color: #064439;
 ////////////////////////////////////////////////////
 // test　のち消すもの
 ////////////////////////////////////////////////////
 .logo-wrap {
     background: #333;
+}
+
+////////////////////////////////////////////////////
+// FIRST VIEW
+////////////////////////////////////////////////////
+#loader-bg {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #fff;
+    z-index: 10000;
+}
+
+#loader {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    text-align: center;
+    color: #fff;
+    z-index: 20000;
+}
+
+
+/* .loading {
+      position: fixed;
+      z-index: 200
+  }
+  
+  .loading_inner {
+      position: absolute;
+      background: rgba(255, 255, 255, 1)
+  } */
+
+.loading_logo_item {
+    width: 320px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    margin: -45px 0 0 -180px
+}
+
+.loading_logo_item img {
+    position: relative
+}
+
+.loading_logo_item div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* top: 2.5%;
+      left: 2.5%; */
+    overflow: hidden
+}
+
+.loading_logo_item span {
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.loading_logo_item div>span:nth-child(1) {
+    width: 100%;
+    background: rgba(230, 230, 230, 1)
+}
+
+.loading_logo_item div>span {
+    width: 100%;
+    height: 100%;
+    background: #064439;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #064439 0%, #064439 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #064439 0%, #064439 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #064439 0%, #064439 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    // filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', endColorstr='#299a0b', GradientType=0);
+    /* IE6-9 */
+    opacity: 0;
+    animation-name: sample01;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    /* background-size: 200% 200%;
+      border-radius: 5px;
+      width: 100%; */
+}
+
+@keyframes sample01 {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 ////////////////////////////////////////////////////
