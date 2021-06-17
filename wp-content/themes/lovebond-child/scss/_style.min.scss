@@ -238,8 +238,21 @@ img {
 }
 
 .loading_logo div>span:nth-child(2) {
-    width: 0;
-    background: rgba(249, 186, 11, 1)
+    // background: rgba(249, 186, 11, 1)
+    animation: GradationMove 3s ease-in-out alternate infinite;
+    background: linear-gradient(90deg, #afa, #aaf, #afa);
+    background-size: 200% 200%;
+    border-radius: 5px;
+    width: 100%;
+}
+
+@keyframes barber-anime {
+    0% {
+        background-position: 0% 50%
+    }
+    100% {
+        background-position: 100% 50%
+    }
 }
 
 .wrap_off .default .loading_logo div>span:nth-child(1) {
