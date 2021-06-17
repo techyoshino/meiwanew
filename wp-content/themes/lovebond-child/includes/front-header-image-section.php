@@ -54,7 +54,7 @@
 			<div class="contents_main_inner">
 				<div class="contents_main_right">
 					<div class="main_slide">
-						<div class="main_slide_img main_slide_img0 opa">
+						<div class="main_slide_img main_slide_img0 opa slide_on">
 							<div></div>
 						</div>
 						<div class="main_slide_img main_slide_img1 opa">
@@ -63,7 +63,7 @@
 						<div class="main_slide_img main_slide_img2 opa">
 							<div></div>
 						</div>
-						<div class="main_slide_img main_slide_img3 opa">
+						<div class="main_slide_img main_slide_img3 opa slide_off">
 							<div></div>
 						</div>
 					</div>
