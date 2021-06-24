@@ -75,13 +75,11 @@ $lovebond_lite_whatsapp_url	= get_theme_mod('lovebond_lite_whatsapp_link', '#');
 
             <!-- BEGIN:RECRUIT  -->
 
+            <?php
+            /*            
+
             <section class="recruit">
-                
                     
-                <!-- <div class="cap">
-                オーダーメイドで機械を作る<br />
-                マザーマシンのセットアップメーカー
-                </div>	 -->
 
                 <div class="recruit-inner scroll_element scroll_off0">
 
@@ -124,6 +122,10 @@ $lovebond_lite_whatsapp_url	= get_theme_mod('lovebond_lite_whatsapp_link', '#');
                 </div>
 
             </section>
+            
+            */
+            ?>
+
             <!-- END:RECRUIT -->
 
             <!-- BEGIN:FOOTER CONTACT  -->

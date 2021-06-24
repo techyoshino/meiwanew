@@ -556,10 +556,10 @@ textarea::placeholder {
           animation-name: sample01;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
   /* background-size: 200% 200%;
       border-radius: 5px;
       width: 100%; */
@@ -670,8 +670,8 @@ textarea::placeholder {
 .right-txt .right-txt-btn a {
   padding: 18px 0 20px;
   border-radius: 30px;
-  background: #064439;
-  border: 1px solid #064439;
+  background: #2e8b57;
+  border: 1px solid #2e8b57;
   width: 100%;
   display: inline-block;
   color: #fff;
@@ -715,8 +715,8 @@ textarea::placeholder {
 .left-txt .left-txt-btn a {
   padding: 18px 0 20px;
   border-radius: 30px;
-  background: #064439;
-  border: 1px solid #064439;
+  background: #2e8b57;
+  border: 1px solid #2e8b57;
   width: 100%;
   display: inline-block;
   color: #fff;
@@ -1241,7 +1241,7 @@ ul.max-menu {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border: 1px solid #064439;
+  border: 1px solid #2e8b57;
   list-style: none;
 }
 
@@ -1250,7 +1250,7 @@ ul.max-menu {
   padding: 20px;
   text-align: center;
   font-weight: bold;
-  color: #064439;
+  color: #2e8b57;
 }
 
 #top-wrapper .block-3 ul li .service-list-icon i {
@@ -1258,18 +1258,18 @@ ul.max-menu {
 }
 
 #top-wrapper .block-3 ul li:not(:nth-child(3n)) {
-  border-right: 1px solid #064439;
+  border-right: 1px solid #2e8b57;
 }
 
 #top-wrapper .block-3 ul li:nth-last-child(n+4) {
-  border-bottom: 1px solid #064439;
+  border-bottom: 1px solid #2e8b57;
 }
 
 #top-wrapper .block-3 .service-list-btn {
   padding: 18px 0 20px;
   border-radius: 40px;
-  background: #064439;
-  border: 1px solid #064439;
+  background: #2e8b57;
+  border: 1px solid #2e8b57;
   width: 260px;
   text-align: center;
   margin: 20px auto;
@@ -1384,7 +1384,7 @@ ul.max-menu {
 }
 
 .about .block-2 .centents-about-table table th {
-  border-bottom: solid 2px #064439;
+  border-bottom: solid 2px #2e8b57;
   padding: 20px 20px;
   width: 30%;
   background: none;
@@ -1461,7 +1461,7 @@ ul.max-menu {
   display: block;
   width: 100%;
   height: 100%;
-  background: #064439;
+  background: #2e8b57;
 }
 
 .about .block-3 .history .h-list {
@@ -1470,7 +1470,7 @@ ul.max-menu {
 }
 
 .about .block-3 .history .h-list .h-list-year {
-  color: #064439;
+  color: #2e8b57;
 }
 
 .about .block-3 .history .h-list > div:nth-child(1) {
@@ -1479,7 +1479,7 @@ ul.max-menu {
   top: 0;
   left: 0;
   padding: 10px 0;
-  color: #064439;
+  color: #2e8b57;
 }
 
 .about .block-3 .history .h-list > div:nth-child(2) {
@@ -1492,7 +1492,7 @@ ul.max-menu {
   display: block;
   width: 10px;
   height: 10px;
-  background: #064439;
+  background: #2e8b57;
   /* border: 1px solid rgba(0,159,65,1); */
   border-radius: 50%;
   position: absolute;
@@ -1523,7 +1523,7 @@ ul.max-menu {
   width: 1px;
   width: 1px;
   height: 100%;
-  background: #064439;
+  background: #2e8b57;
   position: absolute;
   top: 0;
   left: 30px;
@@ -1567,7 +1567,7 @@ ul.max-menu {
 .flow .block-1_inner .flow_list .flow_right .flow_contact a {
   padding: 10px 0 10px;
   border-radius: 30px;
-  background: #064439;
+  background: #2e8b57;
   width: 300px;
   display: inline-block;
   color: #fff;
@@ -1587,9 +1587,9 @@ ul.max-menu {
   font-size: 12px;
   line-height: 38px;
   font-weight: 700;
-  color: #064439;
+  color: #2e8b57;
   border-radius: 20px;
-  border: 1px solid #064439;
+  border: 1px solid #2e8b57;
   background: white;
   position: absolute;
   top: 0;
@@ -1598,7 +1598,7 @@ ul.max-menu {
 }
 
 .flow .block-1_inner .flow_list .flow_title > p:nth-child(2) {
-  color: #064439;
+  color: #2e8b57;
 }
 
 .construction .construction-photo-sp {
@@ -1729,6 +1729,15 @@ ul.max-menu {
 .construction .block-4 .dltable_delivery .row1 {
   width: 50%;
   border-right: 1px solid #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .construction .block-4 .dltable_delivery .row2 {
@@ -1794,11 +1803,11 @@ ul.max-menu {
 }
 
 .contact .block-1 table th {
-  border-top: 1px solid #064439;
-  border-bottom: 1px solid #064439;
+  border-top: 1px solid #2e8b57;
+  border-bottom: 1px solid #2e8b57;
   border-left: none;
   background: none;
-  color: #064439;
+  color: #2e8b57;
 }
 
 .contact .block-1 table td {
@@ -2006,7 +2015,7 @@ ul.max-menu {
 .recruitpage .recruitpage_contact a {
   padding: 10px 0 10px;
   border-radius: 30px;
-  background: #064439;
+  background: #2e8b57;
   width: 300px;
   display: inline-block;
   color: #fff;
