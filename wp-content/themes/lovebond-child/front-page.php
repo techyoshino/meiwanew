@@ -121,7 +121,7 @@ get_header(); ?>
 						<i class="fas fa-chalkboard-teacher"></i>
 						</div>
 						<div class="service-list-txt">
-						ロボットティーチング
+						産業ロボットシステム
 						</div>
 					</li>
 

@@ -48,7 +48,7 @@
 /* basecolor
 ------------------------------------------------------------ */
 
-$green_color: #064439;
+$green_color: #2e8b57;
 ////////////////////////////////////////////////////
 // test　のち消すもの
 ////////////////////////////////////////////////////
@@ -145,8 +145,9 @@ $green_color: #064439;
     opacity: 0;
     animation-name: sample01;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    // animation-iteration-count: infinite;
     animation-fill-mode: forwards;
+    animation-iteration-count: 1;
     /* background-size: 200% 200%;
       border-radius: 5px;
       width: 100%; */
@@ -1256,6 +1257,9 @@ ul.max-menu {
             .row1 {
                 width: 50%;
                 border-right: 1px solid #ccc;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
             .row2 {
                 width: 50%;
